@@ -118,7 +118,7 @@ else
 fi
 
 case "$osname" in
-  sles|amzn|ubuntu|centos)
+  sles|amzn|ubuntu|centos|debian)
      userdel -r $USER 
      groupdel $GROUP
      sleep 3
